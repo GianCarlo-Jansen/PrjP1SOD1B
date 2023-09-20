@@ -42,17 +42,22 @@ nav img {
   width: 14%;
   height: 12%;
 }
-
 #box1{
+  display: flexbox;
+  justify-content:flex-end ;
+  align-items: flex-end; 
   background-color: burlywood;
 }
 #fix1{
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
   width: 320px;
   padding: 10px;
-  border: 5px solid gray;
+  border: 5px solid darkslategrey;
   margin: 0;
   font-size: 2.5rem;
+  background-color:antiquewhite;
+}
+
+#ULNAV{
+  display: flex;
+  justify-content: center;
 }
