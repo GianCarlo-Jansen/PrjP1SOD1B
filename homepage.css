@@ -42,3 +42,17 @@ nav img {
   width: 14%;
   height: 12%;
 }
+
+#box1{
+  background-color: burlywood;
+}
+#fix1{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  font-size: 2.5rem;
+}
