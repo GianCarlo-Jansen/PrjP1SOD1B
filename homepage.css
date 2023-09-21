@@ -22,6 +22,11 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 nav ul {
   display: flex;
   align-items: center;
@@ -31,25 +36,23 @@ nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
-nav a {
+nav a{
   color: white;
   text-decoration: none;
 }
-nav img {
-  width: 5vw;
-}
+
 #logo{
   width: 14%;
   height: 12%;
 }
+/* dit is voor de social boxes (box1 en fix1)*/
 #box1{
-  display: flexbox;
-  justify-content:flex-end ;
-  align-items: flex-end; 
+  display: flex;
+  align-items: flex-end;
   background-color: burlywood;
 }
 #fix1{
-  width: 320px;
+  width: 320px; 
   padding: 10px;
   border: 5px solid darkslategrey;
   margin: 0;
@@ -57,7 +60,4 @@ nav img {
   background-color:antiquewhite;
 }
 
-#ULNAV{
-  display: flex;
-  justify-content: center;
-}
+
