@@ -77,6 +77,8 @@ footer{
   float: left;
   width: 25%;
   padding: 10px;
+  border-style: solid;
+  border-color: #263238;
 }
 
 
