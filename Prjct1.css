@@ -47,8 +47,8 @@ nav a{
 }
 .footerallpage{
 display: flex;
-flex-direction: row-reverse;
-justify-content: flex-start;
+flex-direction:column;
+justify-content: flex-end;
 
 }
 /* dit is voor de social boxes (socailbox en socials)*/
