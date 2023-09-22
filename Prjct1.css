@@ -69,5 +69,40 @@ footer{
   width: 2vh;
 }
 /* alles hierboven is voor de kleine icons in de footer*/
+#titel{
+  text-align: center;
+  font-size: 2.5rem;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
 
 
+.column img {
+  opacity: 0.3; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 12;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#titleimg{
+  text-align: center;
+  font-size: 2.5rem;
+}
