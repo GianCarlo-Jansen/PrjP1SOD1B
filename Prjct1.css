@@ -45,25 +45,29 @@ nav a{
   width: 14%;
   height: 12%;
 }
-.footerallpage{
-display: flex;
-flex-direction:column;
-justify-content: flex-end;
-
-}
-/* dit is voor de social boxes (socailbox en socials)*/
-#socialbox{
-  display: flex;
-  align-items: flex-end;
-  background-color: burlywood;
-}
-#socials{
-  width: 320px; 
+footer{
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
   padding: 10px;
-  border: 5px solid darkslategrey;
-  margin: 0;
-  font-size: 2.5rem;
-  background-color:antiquewhite;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
 }
+/* alles hierboven is voor elke pagina*/ 
+#icon{
+  height: 2vh;
+  width: 1vw;
+}
+#icon2{
+  height: 2vh;
+  width: vh;
+}
+#icon3{
+  height: 2vh;
+  width: 2vh;
+}
+/* alles hierboven is voor de kleine icons in de footer*/
 
 
