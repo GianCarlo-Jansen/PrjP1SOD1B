@@ -9,6 +9,7 @@ font-size: 62.5%;
 }
 body {
   font-family: "Goldman", cursive;
+
 }
 
 nav {
@@ -68,6 +69,10 @@ footer{
   height: 2vh;
   width: 2vh;
 }
+#icon4{
+  height: 2vh;
+  width: 2vh;
+}
 /* alles hierboven is voor de kleine icons in de footer*/
 /* homepage css */
 #titel{
@@ -122,10 +127,9 @@ footer{
   background: #00a8c7;
   justify-content: space-between;
   border-radius: 25px;
+  font-size: large;
 }
 #canvaslogo{
-  float: center;
-  width: 14%;
-  height: 14%;
-
+  width: 2%;
+  height: 2%;
 }
