@@ -133,3 +133,42 @@ footer{
   width: 2%;
   height: 2%;
 }
+#Overmijdiv{
+  display: flex;
+  width: 80%;
+  padding: 2rem;
+  min-height: 30vh;
+  align-items: center;
+  
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  border-radius: 25px;
+  font-size: medium;
+}
+
+#Foto-van-mij{
+  width: 14vw;
+  height: 45vh;
+  border-radius: 20px;
+  float: left;
+}
+#infomij{
+width: 200px;
+color: black;
+float: right;
+}
+
+#infoouderavonden{
+  display: flex;
+  width: 82%;
+  padding: 2rem;
+  min-height: 30vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  border-radius: 25px;
+  font-size: large;
+}
