@@ -159,7 +159,7 @@ color: black;
 float: right;
 }
 
-#infoouderavonden{
+#infoLocatiegids{
   display: flex;
   width: 82%;
   padding: 2rem;
@@ -187,8 +187,16 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
-#Infoprojecten{
-  color: black;
-  margin: 30px;
+#video{
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+#Textlocatiegids{
+  display: flex;
+}
+#tekstgids{
+  display: flex;
 }
