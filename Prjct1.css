@@ -22,6 +22,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  
 }
 .sticky {
   position: fixed;
@@ -199,4 +200,10 @@ tr:nth-child(even) {
 }
 #tekstgids{
   display: flex;
+  font-size: large;
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
