@@ -1,6 +1,8 @@
 html{
-background-color: lightsteelblue;
 font-size: 62.5%;
+background: url('./images/background\ webite.jpg')no-repeat;
+background-position: center;
+background-size: cover;
 }
 * {
   margin: 0;
@@ -9,7 +11,7 @@ font-size: 62.5%;
 }
 body {
   font-family: "Goldman", cursive;
-
+  
 }
 
 nav {
@@ -206,4 +208,8 @@ tr:nth-child(even) {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+#logohomepage{
+  width: 48%;
+  height: 46%;
 }
