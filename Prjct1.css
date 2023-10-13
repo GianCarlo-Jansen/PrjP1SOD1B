@@ -65,7 +65,6 @@ footer{
 }
 #icon2{
   height: 2vh;
-  width: vh;
 }
 #icon3{
   height: 2vh;
@@ -164,7 +163,7 @@ float: right;
 #infoLocatiegids{
   display: flex;
   width: 82%;
-  padding: 2rem;
+  padding: 10rem;
   min-height: 30vh;
   align-items: center;
   flex-wrap: wrap;
@@ -448,17 +447,4 @@ button{
 #linkjesnavhidden{
   color: #00a8c7;
   text-decoration: none;
-}
-#infoeduarte{
-  display: flex;
-  width: 82%;
-  padding: 2rem;
-  min-height: 30vh;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  background: #00a8c7;
-  justify-content: space-between;
-  border-radius: 25px;
-  font-size: large;
 }
