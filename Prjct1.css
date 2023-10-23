@@ -130,6 +130,10 @@ footer{
   border-radius: 25px;
   font-size: large;
 }
+#caimg{
+  width: 50%;
+  height: 35%;
+}
 #appslogo{
   width: 2%;
   height: 2%;
@@ -158,6 +162,21 @@ footer{
 width: 200px;
 color: black;
 float: right;
+}
+
+#IMGOvermijspecial{
+  rotate: 270deg;
+  width: 42vw;
+  height: 30vh;
+  border-radius: 20px;
+  float: left;
+}
+
+#IMGOVERMIJ2{
+  width: 35vw;
+  height: 25vh;
+  border-radius: 20px;
+  float: left;
 }
 
 #infoLocatiegids{
